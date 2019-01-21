@@ -82,7 +82,7 @@ public class Illumio {
                 buildTree(temp, 0, getNode(temp.isInbound, temp.isTcp),true);
             }
             //to print pictorial representation of my rule arrangement
-            printRules();
+            //printRules();
             scanner.close();
         }
         catch (Exception e){
